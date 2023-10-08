@@ -1,40 +1,16 @@
 import React from 'react'
+import Project from '../components/Project'
 
 const Projects = () => {
 	return (
 		<>
 			<div className="bg-slate-600 text-white p-4 h-screen">
-				<h2>Projects</h2>
-				<div className="project-container">
-					<h3>Quiz Generator</h3>
-					<div>pictures</div>
-					<div>explanation overview</div>
-					<div>tech charts</div>
-				</div>
-				<div className="project-container">
-					<h3>Cedaring VR art</h3>
-					<div>pictures</div>
-					<div>explanation overview</div>
-					<div>tech charts</div>
-				</div>
-				<div className="project-container">
-					<h3>Cloud Resume Template</h3>
-					<div>pictures</div>
-					<div>explanation overview</div>
-					<div>tech charts</div>
-				</div>
-				<div className="project-container">
-					<h3>Elavation Weather App</h3>
-					<div>pictures</div>
-					<div>explanation overview</div>
-					<div>tech charts</div>
-				</div>
-				<div className="project-container">
-					<h3>React component practice</h3>
-					<div>pictures</div>
-					<div>explanation overview</div>
-					<div>tech charts</div>
-				</div>
+				<h2>Personal Coding Projects</h2>
+				<Project title="Quiz Generator" description="explanation overview" image="vite.svg" />
+				<Project title="Cedaring VR art" description="explanation overview" image="vite.svg" />
+				<Project title="Elevation Weather App" description="explanation overview" image="vite.svg" />
+				<Project title="Cloud Resume Template" description="explanation overview" image="vite.svg" />
+				<Project title="React Components practice" description="explanation overview" image="vite.svg" />
 			</div>
 		</>
 	)

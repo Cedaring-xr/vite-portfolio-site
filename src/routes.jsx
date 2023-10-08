@@ -13,9 +13,9 @@ export default function PageRoutes() {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
+				{/* <Route path="/about" element={<About />} /> */}
 				<Route path="/projects" element={<Projects />} />
-				<Route path="/future" element={<Future />} />
+				{/* <Route path="/future" element={<Future />} /> */}
 			</Routes>
 			<Footer />
 		</Router>

@@ -3,7 +3,7 @@ import PageRoutes from './routes'
 
 const App = () => {
 	return (
-		<div className="bg-slate-300">
+		<div className="bg-slate-200">
 			<PageRoutes />
 		</div>
 	)

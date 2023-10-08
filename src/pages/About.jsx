@@ -1,5 +1,6 @@
 import React from 'react'
 
+// I probably don't need this page at all, all stuff here can be displayed on the homepage
 const About = () => {
 	return (
 		<>
