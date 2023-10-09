@@ -3,7 +3,8 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		fontFamily: {
-			sans: ['Graphik', 'sans-serif']
+			title: ['Kanit', 'sans-serif'],
+			serif: ['PT Serif', 'serif']
 		},
 		extend: {}
 	},
