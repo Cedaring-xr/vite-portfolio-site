@@ -13,4 +13,7 @@
 		border-top-left-radius: 230px 55px;
 		border-bottom-left-radius: 110px 35px;
 	}
+	.button {
+		@apply rounded-lg p-1 px-3 m-2 bg-neutral-900 text-neutral-100 border-[1px];
+	}
 }

@@ -6,6 +6,7 @@ export default {
 			title: ['Kanit', 'sans-serif'],
 			serif: ['PT Serif', 'serif']
 		},
+
 		extend: {}
 	},
 	plugins: []
