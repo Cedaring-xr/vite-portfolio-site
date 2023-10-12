@@ -29,10 +29,10 @@ export default function ImageSlider({ images, pictures }) {
 	return (
 		<div id="carousel-container" className=" w-[350px] h-[350px] overflow-hidden">
 			<div className="relative w-[1050px] flex">
-				{images.map((image) => (
-					<div key={image}>
+				{pictures.map((image) => (
+					<div key={image.url}>
 						<img
-							src={image}
+							src={image.url}
 							className="object-cover transition:translate duration-300"
 							style={{ translate: `${-100 * imageIndex}%` }}
 						></img>
@@ -54,7 +54,7 @@ export default function ImageSlider({ images, pictures }) {
 				</button>
 			</div>
 			<div id="image-button-container" className="absolute flex left-[175px] top-[555px]">
-				{images.map((_, index) => (
+				{pictures.map((_, index) => (
 					<button
 						key={index}
 						aria-label={`view image ${index}`}
