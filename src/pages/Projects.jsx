@@ -21,7 +21,7 @@ import S3 from '/public/icons/s3.png'
 export default function Projects() {
 	return (
 		<>
-			<div className="bg-slate-600 text-white p-4">
+			<div className="bg-slate-600 text-white">
 				<h2 className="font-title text-3xl">Personal Coding Projects</h2>
 				<Project
 					title="Quiz Generator"
@@ -34,8 +34,10 @@ export default function Projects() {
 					logos={[
 						{ name: 'React', url: ReactJS },
 						{ name: 'Tailwind CSS', url: Tailwind },
-						{ name: 'AWS', url: AWSCombo }
+						{ name: 'AWS', url: AWSCombo },
+						{ name: 'Next.js', url: Next }
 					]}
+					link="https://github.com/Cedaring-xr"
 				/>
 				<Project
 					title="React Component Practice"
@@ -51,6 +53,7 @@ export default function Projects() {
 						{ name: 'Typescript', url: Typescript },
 						{ name: 'Vitest', url: Vitest }
 					]}
+					link="https://github.com/Cedaring-xr"
 				/>
 				<Project
 					title="Cedaring VR Art"
@@ -66,6 +69,7 @@ export default function Projects() {
 						{ name: 'Playwright', url: Playwright },
 						{ name: 'AWS S3', url: S3 }
 					]}
+					link="https://cedaring.art/"
 				/>
 			</div>
 		</>

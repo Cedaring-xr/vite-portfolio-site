@@ -11,7 +11,7 @@ export default function ImageSlider({ images, pictures }) {
 		console.log('prev')
 		setImageIndex((index) => {
 			if (index === 0) {
-				return images.length - 1
+				return pictures.length - 1
 			}
 			return index - 1
 		})
@@ -20,7 +20,7 @@ export default function ImageSlider({ images, pictures }) {
 	const nextImage = () => {
 		console.log('next')
 		setImageIndex((index) => {
-			if (index === images.length - 1) {
+			if (index === pictures.length - 1) {
 				return 0
 			}
 			return index + 1
@@ -53,7 +53,7 @@ export default function ImageSlider({ images, pictures }) {
 					<FaChevronCircleRight className="text-3xl text-neutral-700 group-hover:text-slate-100 group-focus-visible:text-slate-100 mr-1 transition-all ease-in-out duration-200" />
 				</button>
 			</div>
-			<div id="image-button-container" className="absolute flex left-[175px] top-[555px]">
+			<div id="image-button-container" className="absolute flex left-[175px] top-[545px]">
 				{pictures.map((_, index) => (
 					<button
 						key={index}

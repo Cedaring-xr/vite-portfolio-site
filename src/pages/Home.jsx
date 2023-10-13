@@ -1,16 +1,35 @@
 import React from 'react'
 import Profile from '../components/Profile'
-import Footer from '../components/footer'
+import Certifications from '../components/certifications'
 
-const Home = () => {
+export default function Home() {
 	return (
 		<div className="bg-neutral-200 p-0 flex flex-col">
-			<a href="/projects">
-				<button className="bg-emerald-600 text-white font-title text-xl py-1 px-6 rounded-full border-2 border-slate-900 my-4 w-[200px] mx-auto">
-					Projects
-				</button>
-			</a>
+			<div className="flex flex-col items-center">
+				<a
+					href="/projects"
+					className="bg-emerald-600 text-white font-title text-xl py-1 px-6 rounded-full border-2 border-slate-900 my-4 w-[300px] flex justify-center"
+				>
+					View Recent Projects
+				</a>
+				<a
+					href="https://github.com/Cedaring-xr"
+					target="_blank"
+					className="bg-purple-600 text-white font-title text-xl py-1 px-6 rounded-full border-2 border-slate-900 my-4 w-[200px] flex justify-center"
+				>
+					View GitHub
+				</a>
+				<a
+					href="https://github.com/Cedaring-xr"
+					target="_blank"
+					className="bg-amber-600 text-white font-title text-xl py-1 px-6 rounded-full border-2 border-slate-900 my-4 w-[200px] flex justify-center"
+				>
+					View Resume
+				</a>
+			</div>
+
 			<Profile title="MATT RAY" subTitle="Web Developer & QA Automation Engineer" img="self.png" />
+			<Certifications />
 			<div className="p-3 border-[1px] border-green-600">
 				<h2 className="font-title font-bold text-xl">A little bit about myself</h2>
 				<div>
@@ -48,5 +67,3 @@ const Home = () => {
 		</div>
 	)
 }
-
-export default Home
