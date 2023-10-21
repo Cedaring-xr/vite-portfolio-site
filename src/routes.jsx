@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
-import Projects from './pages/Projects.jsx'
-import Header from './components/header.jsx'
-import Footer from './components/footer.jsx'
+import Projects from '/src/pages/Projects.jsx'
+import Header from '/src/components/header.jsx'
+import Footer from '/src/components/footer.jsx'
 // import Future from './pages/Future.jsx'
 
 export default function PageRoutes() {
