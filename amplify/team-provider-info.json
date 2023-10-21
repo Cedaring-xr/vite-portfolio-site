@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-viteportfolio-dev-95602-authRole",
+      "UnauthRoleArn": "arn:aws:iam::751841649472:role/amplify-viteportfolio-dev-95602-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::751841649472:role/amplify-viteportfolio-dev-95602-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-viteportfolio-dev-95602-deployment",
+      "UnauthRoleName": "amplify-viteportfolio-dev-95602-unauthRole",
+      "StackName": "amplify-viteportfolio-dev-95602",
+      "StackId": "arn:aws:cloudformation:us-east-2:751841649472:stack/amplify-viteportfolio-dev-95602/57fc1660-702a-11ee-81a3-0a23ce2c4719",
+      "AmplifyAppId": "d39j7iis4d71eu"
+    }
+  }
+}
