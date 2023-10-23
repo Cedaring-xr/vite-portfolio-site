@@ -8,12 +8,12 @@ import Footer from '/src/components/footer.jsx'
 export default function PageRoutes() {
 	return (
 		<Router>
-			{/* <Header /> */}
+			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/projects" element={<Projects />} />
 			</Routes>
-			{/* <Footer date="oct 2023" /> */}
+			<Footer date="oct 2023" />
 		</Router>
 	)
 }
