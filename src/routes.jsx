@@ -4,19 +4,16 @@ import Home from './pages/Home.jsx'
 import Projects from '/src/pages/Projects.jsx'
 import Header from '/src/components/header.jsx'
 import Footer from '/src/components/footer.jsx'
-// import Future from './pages/Future.jsx'
 
 export default function PageRoutes() {
 	return (
 		<Router>
-			<Header />
+			{/* <Header /> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/projects" element={<Projects />} />
-				{/* <Route path="/about" element={<About />} /> */}
-				{/* <Route path="/future" element={<Future />} /> */}
 			</Routes>
-			<Footer date="oct 2023" />
+			{/* <Footer date="oct 2023" /> */}
 		</Router>
 	)
 }
